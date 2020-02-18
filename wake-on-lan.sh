@@ -19,10 +19,16 @@ date > /proc/1/fd/1 2>/proc/1/fd/2
 /usr/sbin/etherwake b8:97:5a:f5:08:28
 
 # RIG6
-/usr/sbin/etherwake -i enp3s0f1 b8:97:5a:f5:0c:24
+/usr/sbin/etherwake b8:97:5a:f5:0c:24
 
 # RIG7
 /usr/sbin/etherwake b8:97:5a:f5:0a:64
 
 # RIG8
-/usr/sbin/etherwake -i enp3s0f1 b8:97:5a:f5:0c:24
+/usr/sbin/etherwake b8:97:5a:f5:0c:45
+
+# RIG9
+/usr/sbin/etherwake b8:97:5a:f5:0c:45
+
+# RIG10
+/usr/sbin/etherwake b8:97:5a:f5:0c:45
