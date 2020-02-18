@@ -1,0 +1,20 @@
+{
+  "name": "wol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "docker build -t quangtuan9237/wake-on-lan:pi .",
+    "up": "docker run -d --name wake_on_lan --network host --restart always quangtuan9237/wake-on-lan:pi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quangtuan2440/wake-on-lan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quangtuan2440/wake-on-lan/issues"
+  },
+  "homepage": "https://github.com/quangtuan2440/wake-on-lan#readme"
+}
