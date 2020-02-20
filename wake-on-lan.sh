@@ -28,7 +28,7 @@ date > /proc/1/fd/1 2>/proc/1/fd/2
 /usr/sbin/etherwake b8:97:5a:f5:0c:45
 
 # RIG9
-/usr/sbin/etherwake b8:97:5a:f5:0c:45
+/usr/sbin/etherwake b8:97:5a:f5:0b:a8
 
 # RIG10
 /usr/sbin/etherwake b8:97:5a:f5:0c:45
